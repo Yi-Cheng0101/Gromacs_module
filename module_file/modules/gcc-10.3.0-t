@@ -1,0 +1,8 @@
+#%Module
+
+set s $APPROOT/opt/gcc-10.3.0
+
+module-whatis    gcc 10.3.0
+prepend-path PATH             $s/bin
+prepend-path LD_LIBRARY_PATH  $s/lib
+prepend-path LD_LIBRARY_PATH  $s/lib64
